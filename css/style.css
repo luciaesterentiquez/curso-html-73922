@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body{
+    font-family: "Figtree", sans-serif;
+}
+
+header{
+    
+    
+    background-color: hsl(221, 73%, 63%);
+    
+}
+#logo{
+    height: 50px;
+}
+    header section{
+        width: 1100px;
+        height: 104px;
+        margin: auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        header nav a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            margin: 8px;
+        }
+/* main */
+main{
+    min-height: 600px;
+}
+
+/* setcion hero-banner */
+
+    #hero-banner{
+        height: 680px;
+        
+        background : linear-gradient( 180deg, #5B86E5, #36D1DC);
+    }
+
+    #mujer{
+        height: 600px;
+    }
+
+        #hero-banner div{
+            width: 1100px;
+            height: 680px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+        }
+        #hero-banner div article{
+            width: 550px;
+            color:white;
+        }
+
+        #hero-banner div article h1{
+            font-size: 24px;
+            font-weight: normal;
+            margin-bottom: 40px;
+        }
+
+        #hero-banner div article h2{
+            font-size: 35px;
+            font-weight: 600;
+        }
+
+
+        /* seccion porfolio */
+        #porfolio{
+            width: 1100px;
+            height: 838px;
+            margin: 72px auto 0 auto;
+            padding: 32px 0px ;
+            
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+            #porfolio h1{
+                width: 100%;
+                text-align: center;
+                font-size: 24px;
+                font-weight: 400;
+
+
+            }
+
+            #porfolio article{
+                width: 340px;
+                height: 340px;
+                display: flex;
+                
+            }
+
+            #porfolio-1{
+                background-image: url(../img/porfolio.jpg);
+                background-size: 100% auto;
+                border-radius: 8px;
+            }
+            #porfolio-2{
+                background-image: url(../img/porfolio.jpg);
+                background-size: 100% auto;
+                border-radius: 8px;
+            }
+            #porfolio-3{
+                background-image: url(../img/porfolio.jpg);
+                background-size: 100% auto;
+                border-radius: 8px;
+            }
+            #porfolio-4{
+                background-image: url(../img/porfolio.jpg);
+                background-size: 100% auto;
+                border-radius: 8px;
+            }
+            #porfolio-5{
+                background-image: url(../img/porfolio.jpg);
+                background-size: 100% auto;
+                border-radius: 8px;
+            }
+            #porfolio-6{
+                background-image: url(../img/porfolio.jpg);
+                background-size: 100% auto;
+                border-radius: 8px;
+            }
+
+            #porfolio article a{
+                width: 288px;
+                height: 72px;
+                margin: 252px 26px 16px 26px;
+                padding: 8px 16px;
+                background-color: #fff;
+                border-right: 32px solid #07B2FF;
+                border-radius: 8px;
+                text-decoration: none;
+                transition: 500ms;
+            }
+
+            #porfolio article a:hover{
+                background-color: #0B1E46;
+                transform: scale(1.2);
+            }
+            #porfolio article a:hover h3{
+                color: white;
+            }
+                #porfolio article a h2{
+                    margin-bottom: 8px;
+                    color: #07B2FF;
+                    font-weight: normal;
+                    font-size: 16px;
+                    
+                }
+                #porfolio article a h3{
+                    color: #0B1E46;
+                    font-weight: 600;
+                    font-size: 24px;
+                }
+
+
+
+/* #servicios */
+    #servicios{
+        width: 1100px;
+        height: 414px;
+        margin: 72px auto 0px auto;
+        padding: 32px 24px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }  
+        #servicios h3{
+            text-align: center;
+            width: 100%;
+            font-size: 24px;
+            font-weight: normal;
+            margin-bottom: 32px;
+        }
+        #servicios article{
+            width: 336px;
+            height: 289px;
+            border: 2px solid #07B2FF;
+            border-radius: 8px;
+            color: #07B2FF;
+            padding: 24px 28px;
+        }
+        #servicios article h2{
+            font-weight: 300;
+
+            margin: 24px 0px 16px 0px;
+        }
+        #servicios article p{
+            margin-bottom: 8px;
+        }
+        #servicios article a{
+            text-decoration: none;
+            color: #07B2FF;
+        }
+
+
+    /* Formulario de Contacto */
+        form{
+            width: 648px;
+            margin: 72px auto 0px auto;
+            background-color: #CCEFFF;
+            padding: 44px 84px;
+            border-radius: 16px;
+        }
+
+            form input,
+            form textarea{
+                width: 480px;
+                margin-bottom: 32px;
+                padding: 12px 20px 12px 20px;
+                border: none;
+                border-left: 12px solid #07B2FF;
+                border-radius: 8px;
+                font-family: "Figtree", sans-serif;
+                font-size: 16px;
+               
+            }
+            form textarea{
+                height: 160px;
+                resize: none;
+            }
+
+            form button{
+                width: 180px;
+                padding: 10px;
+                background-color: #07B2FF;
+                border-radius: 8px;
+                border: none;
+                font-family: "Figtree", sans-serif;
+                font-size: 16px;
+                color: white;
+                box-shadow: 0px 4px 4px hsla(0, 0%, 55%, 25%);
+                /* box-shadow: X Y blur color; */
+            }
+          
+
+    /* Footer */
+    footer{
+        background-color: hsl(221, 73%, 16%);
+    }
+    footer section div a img{
+        height: 24px;
+
+    }
+    footer section{
+        width: 1100px;
+        height: 216px;
+        margin: 72px auto 0px auto;
+       
+        
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+        footer section div a{
+            margin: 16px;
+        }
+            footer section div a img{
+                height: 24px;
+
+            }
